@@ -1,3 +1,3 @@
-# Lets go
+# Getting Started
 
-[back](/)
+[Go back](/)

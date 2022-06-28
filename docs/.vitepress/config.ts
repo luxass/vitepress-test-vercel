@@ -2,8 +2,8 @@ import { defineConfig } from "vitepress";
 
 export default defineConfig({
   lang: "en-US",
-  title: "VitePress",
-  description: "Vite & Vue powered static site generator.",
+  title: "VitePress Test Site",
+  description: "VitePress Test Site",
 
   lastUpdated: true,
 
@@ -16,29 +16,16 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: "https://github.com/vuejs/vitepress/edit/main/docs/:path",
+      pattern: "https://github.com/luxass/vitepress-test-vercel/edit/main/docs/:path",
       text: "Edit this page on GitHub",
     },
 
-    socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
-    ],
-
     footer: {
       message: "Released under the MIT License.",
-      copyright: "Copyright © 2019-present Evan You",
+      copyright: "Copyright © 2022-present Luxass",
     },
 
-    algolia: {
-      appId: "8J64VVRP8K",
-      apiKey: "a18e2f4cc5665f6602c5631fd868adfd",
-      indexName: "vitepress",
-    },
 
-    carbonAds: {
-      code: "CEBDT27Y",
-      placement: "vuejsorg",
-    },
   },
 });
 
